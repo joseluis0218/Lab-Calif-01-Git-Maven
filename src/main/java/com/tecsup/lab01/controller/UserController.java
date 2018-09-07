@@ -28,5 +28,8 @@ public class UserController {
 	public void setedad(int edad) {
 		this.modelo.setedad(edad);
 	}
+	public void actualizarVista() {
+		vista.imprimirDatosUsuario(modelo.getnombre(), modelo.getApe_paterno(), modelo.getedad());
+	}
 	
 }

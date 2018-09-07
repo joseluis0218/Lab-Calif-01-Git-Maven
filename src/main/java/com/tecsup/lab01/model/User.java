@@ -28,4 +28,5 @@ public void setedad(int edad) {
 public int getedad() {
 	return edad;
 }
+
 }
